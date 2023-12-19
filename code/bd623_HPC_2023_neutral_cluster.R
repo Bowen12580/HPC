@@ -31,4 +31,4 @@ speciation_rate <- 0.002604
 result_filename <- paste0("output_", iter, ".rda")
 
 # Call the simulation function, set wall_time to 11.5 hours
-neutral_cluster_run(speciation_rate, size, wall_time = 1, interval_rich = 1, interval_oct = size / 10, burn_in_generations = 8 * size, output_file_name = result_filename)
+neutral_cluster_run(speciation_rate, size, wall_time = 690, interval_rich = 1, interval_oct = size / 10, burn_in_generations = 8 * size, output_file_name = result_filename)
